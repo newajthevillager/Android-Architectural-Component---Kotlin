@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ExploreJetpackComponents</string>
+    <string name="userKey">userkey</string>
 </resources>

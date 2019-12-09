@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="2dp">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUserName"
+            android:background="#ddd"
+            android:text="Name"
+            android:gravity="center"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUserAge"
+            android:background="#ddd"
+            android:text="Age"
+            android:gravity="center"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUserGender"
+            android:background="#ddd"
+            android:text="Gender"
+            android:gravity="center"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUserCountry"
+            android:background="#ddd"
+            android:text="Country"
+            android:gravity="center"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUserProfession"
+            android:background="#ddd"
+            android:text="Profession"
+            android:gravity="center"
+            android:padding="5dp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

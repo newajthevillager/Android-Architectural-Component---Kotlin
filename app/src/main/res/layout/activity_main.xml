@@ -21,6 +21,12 @@
             android:text="Data Binding"
             android:onClick="@{(view) -> handler.navigateToMoviesActivity(view)}"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room Database"
+            android:onClick="@{(view) -> handler.navigateToUsersActivity(view)}"/>
+
     </LinearLayout>
 
 </layout>
